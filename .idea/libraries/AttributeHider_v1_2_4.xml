@@ -2,7 +2,6 @@
   <library name="AttributeHider-v1.2.4">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libraries/AttributeHider-v1.2.4.jar!/" />
-      <root url="file://$PROJECT_DIR$/libraries" />
       <root url="jar://$PROJECT_DIR$/libraries/BarAPI.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/citizens-2.0.13-SNAPSHOT.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/Essentials.jar!/" />
@@ -11,7 +10,6 @@
       <root url="jar://$PROJECT_DIR$/libraries/Reboot.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/Vault.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/VoxelSniper-5.170.0-SNAPSHOT.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libraries/worldedit-bukkit-6.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/worldguard-6.0.0-beta-02.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/TabAPI.jar!/" />
     </CLASSES>
@@ -21,7 +19,6 @@
     <SOURCES>
       <root url="file://$PROJECT_DIR$/libraries" />
     </SOURCES>
-    <jarDirectory url="file://$PROJECT_DIR$/libraries" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/libraries" recursive="false" type="SOURCES" />
   </library>
 </component>

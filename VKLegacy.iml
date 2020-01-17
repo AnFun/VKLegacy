@@ -16,8 +16,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="libraries" level="project" />
-    <orderEntry type="library" name="AttributeHider-v1.2.4" level="project" />
     <orderEntry type="library" name="spigot" level="project" />
+    <orderEntry type="library" name="AttributeHider-v1.2.4" level="project" />
   </component>
 </module>
