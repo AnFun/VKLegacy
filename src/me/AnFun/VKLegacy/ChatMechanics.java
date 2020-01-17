@@ -370,7 +370,7 @@ public class ChatMechanics implements Listener, CommandExecutor
             else if (is.getItemMeta().hasDisplayName()) {
                 item = "{id:1,tag:{display:{Name:\\\"" + is.getItemMeta().getDisplayName() + "\\\"}}}";
             }
-            final String msg = "[\"\",{\"text\":\"" + before + "\"},{\"text\":\"�f�l�nSHOW\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"" + item + "\"}},{\"text\":\"" + after + "\"}]";
+            final String msg = "[\"\",{\"text\":\"" + before + "\"},{\"text\":\"§f§l§nSHOW\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"" + item + "\"}},{\"text\":\"" + after + "\"}]";
             final PacketPlayOutChat packet = new PacketPlayOutChat(ChatSerializer.a(msg));
             ((CraftPlayer)p).getHandle().playerConnection.sendPacket((Packet)packet);
         }
