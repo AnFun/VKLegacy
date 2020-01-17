@@ -231,7 +231,7 @@ public class Alignments implements Listener
     
     public static boolean isSafeZone(final Location loc) {
         final ApplicableRegionSet locset = WGBukkit.getRegionManager(loc.getWorld()).getApplicableRegions(loc);
-        return locset.queryState((RegionAssociable)null, new StateFlag[] { DefaultFlag.PVP }) == StateFlag.State.DENY;
+        return locset.queryState(null, new StateFlag[] { DefaultFlag.PVP }) == StateFlag.State.DENY;
     }
     
     static void updatePlayerAlignment(final Player p) {

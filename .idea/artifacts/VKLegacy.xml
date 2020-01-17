@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="VKLegacy">
+    <output-path>$PROJECT_DIR$/out/artifacts/VKLegacy</output-path>
+    <root id="archive" name="VKLegacy.jar">
+      <element id="module-output" name="VKLegacy" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>

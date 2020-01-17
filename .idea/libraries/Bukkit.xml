@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Bukkit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/bukkit-1.7.10-R0.1-20140817.175650-8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/spigot.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libraries/bukkit-1.7.10-R0.1-20140817.175650-8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/spigot.jar!/" />
+    </SOURCES>
+  </library>
+</component>
